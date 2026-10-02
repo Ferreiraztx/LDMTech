@@ -212,6 +212,8 @@
 
       <article class="project-card project-small">
         <div class="project-image image-two">
+            <a class="project-photo-link" href="https://lavacar-aura.vercel.app" target="_blank" rel="noreferrer" aria-label="Abrir projeto Lava Car">
+            </a>
           <div class="image-title">Lava Car</div>
           <span class="image-corner">LAVA CAR / 2025</span>
         </div>
@@ -225,6 +227,8 @@
 
       <article class="project-card project-small">
         <div class="project-image image-three">
+            <a class="project-photo-link" href="https://lambo-by-ferreira.vercel.app" target="_blank" rel="noreferrer" aria-label="Abrir projeto Lamborghini">
+            </a>
           <div class="image-title">Lamborghini</div>
           <span class="image-corner">LAMBORGHINI / 2025</span>
         </div>

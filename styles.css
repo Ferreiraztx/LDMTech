@@ -722,9 +722,15 @@ small {
   color: rgba(255, 255, 255, 0.7);
 }
 .contact {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 130px;
+  display: block;
+  text-align: center;
+}
+.contact-copy {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.contact-copy .eyebrow {
+  justify-content: center;
 }
 .contact-copy h2 {
   font-size: clamp(48px, 6vw, 80px);
@@ -737,6 +743,8 @@ small {
   line-height: 1.7;
   font-size: 14px;
   max-width: 370px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .contact-mail {
   display: inline-block;
@@ -746,41 +754,16 @@ small {
   border-bottom: 1px solid var(--pink);
   padding-bottom: 10px;
 }
-.contact-form {
+.whatsapp-button {
   display: flex;
-  flex-direction: column;
-  gap: 27px;
-  padding-top: 32px;
+  width: fit-content;
+  margin: 34px auto 0;
+  background: #25d366;
+  color: #04140a;
 }
-.contact-form label {
-  font: 11px var(--font-mono);
-  color: var(--muted);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-.contact-form input,
-.contact-form textarea {
-  background: transparent;
-  border: 0;
-  border-bottom: 1px solid var(--line);
-  color: var(--paper);
-  padding: 0 0 12px;
-  outline: 0;
-  resize: vertical;
-}
-.contact-form input:focus,
-.contact-form textarea:focus {
-  border-color: var(--pink);
-}
-.contact-form .button {
-  align-self: flex-start;
-  margin-top: 5px;
-}
-.form-feedback {
-  font: 11px var(--font-mono);
-  color: #63db9f;
-  margin: 0;
+.whatsapp-button:hover {
+  background: #8af0ad;
+  color: #04140a;
 }
 .site-footer {
   width: min(1240px, calc(100% - 80px));
@@ -812,8 +795,7 @@ small {
 .section-heading,
 .service-list,
 .project-card,
-.contact-copy,
-.contact-form {
+.contact-copy {
   animation: section-rise 0.8s ease both;
 }
 .service-list {
@@ -1052,9 +1034,6 @@ small {
   }
   .contact {
     display: block;
-  }
-  .contact-form {
-    margin-top: 60px;
   }
   .site-footer {
     display: grid;

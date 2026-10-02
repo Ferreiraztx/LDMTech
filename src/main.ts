@@ -9,7 +9,6 @@ import {
   servicesMarkup,
   statementMarkup,
 } from "./components/sections";
-import { setupContactForm } from "./features/contact-form";
 import { setupNavigation } from "./features/navigation";
 
 const app = document.querySelector<HTMLDivElement>("#app");
@@ -33,4 +32,3 @@ app.innerHTML = `
   </div>`;
 
 setupNavigation();
-setupContactForm();
