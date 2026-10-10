@@ -85,8 +85,8 @@ export const projectsMarkup = (): string => `
     <div class="project-grid">
       <article class="project-card project-large">
         <div class="project-image image-one">
-          <a class="project-photo-link" href="https://pahragon-teal.vercel.app" target="_blank" rel="noreferrer" aria-label="Abrir projeto Pahragon">
-            <img class="project-photo" src="/Pahragon.jpg" alt="Tela inicial do projeto Pahragon" />
+          <a class="project-photo-link" href="https://www.adscorretora.com.br" target="_blank" rel="noreferrer" aria-label="Abrir projeto ADS Corretora">
+            <img class="project-photo" src="/adscorretora.png" alt="Tela inicial do projeto ADS Corretora" />
           </a>
           <div class="image-ui">
             <span>PRODUTO DIGITAL</span>
@@ -95,8 +95,8 @@ export const projectsMarkup = (): string => `
         </div>
         <div class="project-meta">
           <div>
-            <h3>Pahragon</h3>
-            <p>Site institucional & reservas</p>
+            <h3>ADS Corretora</h3>
+            <p>Site de corretagem</p>
           </div>
         </div>
       </article>
